@@ -1,0 +1,10 @@
+<html>
+    <head>
+    <title>membuat link<title>
+    </head>
+
+    <body>
+        <p>berikut adalah link ke situs lain</p>
+        <a href="home.html">MASUK</a>
+    </body>
+</html>
