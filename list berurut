@@ -1,0 +1,16 @@
+<html>
+    <head>
+    
+    </head>
+
+    <body>
+        <p>membuat list berurut</p>
+        <ol>
+            <li>langkah pertama</li>
+            <li>langkah kedua</li>
+            <li>langkah ketiga</li>
+            <li>langkah keempat</li>
+            <li>langkah kelima</li>
+        </ol>
+    </body>
+</html>
