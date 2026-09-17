@@ -1,0 +1,16 @@
+<html>
+    <head>
+    
+    </head>
+
+    <body>
+        <p>membuat list tidak berurut</p>
+        <ul>
+            <li>item pertama</li>
+            <li>item kedua</li>
+            <li>item ketiga</li>
+            <li>item keempat</li>
+            <li>item kelima</li>
+        </ul>
+    </body>
+</html>
