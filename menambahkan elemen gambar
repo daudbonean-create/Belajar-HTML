@@ -1,0 +1,10 @@
+<html>
+    <head>
+    <title>menambahkan elemen gambar</title>
+    </head>
+
+    <body>
+        <p>berikut adalah contoh pemasangan gambar dalam web</p>
+        <img src="logostmkg.html" alt="logo stmkg" width="100px" height="100px">
+    </body>
+</html>
