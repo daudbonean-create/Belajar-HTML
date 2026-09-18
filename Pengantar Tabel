@@ -1,21 +1,45 @@
 <html>
-    <head></head>
+    <head>
+    <title>membuat elemen tabel</title>
+    </head>
+
     <body>
-        <table border="1">
-            <thead>
-                <tr>
-                    <td>JUDUL</td>
-                    <td>DURASI</td>
-                    <td>KATEGORI</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>HARVEST MOON</td>
-                    <td>4 JAM 30 MENIT</td>
-                    <td>GAME ANAK</td>
-                </tr>
-            </tbody>
-        </table>
+       <table border="2"> #elemen untuk gaaris pada tabel
+        <caption>Daftar Nama Karyawan</caption> #memberi judul tabel
+        <thead> #mendefinisikan bagian kepala tabel
+        <tr>
+            <th rowspan="2">Nama</th>   #menggabungkan sel ke beebrapa kolom secara vertikal
+            <th colspan=" 2">Keterangan</th>    menggabungkan sel ke beebrapa kolom secara horizontal
+            
+        </tr>
+
+        <tr>
+            <th>Status</th>
+            <th>Pekerjaan</th>
+        </tr>
+        </thead>
+
+        <tbody> #mendefinisikan bagian badan tabel
+        <tr>
+            <td>Caca</td>   #konsep pengisianya adalah horizontal
+            <td>Menikah</td>
+            <td>Guru</td>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>Single</td>
+            <td>Dokter</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+        <tr>
+            <td colspan="3">
+                Ini bagian footer
+            </td>
+        </tr>
+        </tfoot>    #mendefinisikan bagian kaki tabel
+
+       </table>
     </body>
 </html>
