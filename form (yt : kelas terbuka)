@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+
+    <body>
+        <form>
+            Nama depan : <input placeholder="masukkan nama lengkap" type="text"><br>
+            Nama panggilan : <input type="text"><br>
+            Password : <input type="password"><br>
+
+            <h4>WNI (RADIO BUTTON) : </h4>
+            <input type="radio" name="WNI" value="ya">
+            <label for="ya">YA</label><br>
+
+            <input type="radio" name="WNI" value="tidak">
+            <label for="tidak">Tidak</label><br>
+
+            <h4>Musik Favorit (CHECK BOX) : </h4>
+            <input type="checkbox" name="musik" value="Dangdut">
+            <label for="Dangdut">dangdut</label><br>
+            <input type="checkbox" name="musik" value="Jazz">
+            <label for="Jazz">jazz</label><br>
+
+             <h4>Dropdown List : </h4>
+             <select name="pekerjaan">
+                <option value="mahasiswa">mahasiswa</option>
+                <option value="pekerja pabrik">pekerja pabrik</option>
+                <option value="PNS">PNS</option>
+             </select>
+
+             <h4>Upload Foto: </h4>
+                <input type="file" name="foto" value="hasil_up"><br>
+
+            <input type="button" name="Submit" value="submit">
+
+
+            
+
+    </body>
+</html> 
