@@ -1,0 +1,49 @@
+<head>
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <h1>Selamat Datang</h1>
+
+        <nav>
+        <ul>
+            <li>
+                <a href="#">Beranda</a>
+            </li>
+
+            <li>
+                <a href="#">Tentang kami</a>
+            </li>
+
+            <li>
+                <a href="">Kontak</a>
+            </li>
+        </ul>
+
+        <form>
+            <label for="search">Cari</label>
+            <input type="text" id="search" name="search" placeholder="masukkan kata kunci">
+            <button type="submit">cari</button>
+        </form>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Artikel Pertama</h2>
+            <img src="logostmkg.html" alt="gambar" title="logo stmkg" width="100px" height="100px">
+            <p>ini contoh gambar pertama</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga saepe perferendis illo reiciendis ex eos obcaecati odio, velit dolorum architecto nesciunt placeat facilis libero nulla, officiis dicta facere aperiam suscipit.</p>
+        </article>
+        <article>
+            <h2>Artikel Kedua</h2>
+            <img src="logobmkg.png" title="logobmkg" alt="logo bmkg">
+            <p>ini contoh gambar kedua</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>berisi hak cipta</p>
+    </footer>
+</body>
