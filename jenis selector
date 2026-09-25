@@ -1,0 +1,74 @@
+# HTML-NYA
+
+<html>
+    <head>
+        <title>CSS selector</title>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+        <header>
+            <h1>Menu makan kita minggu ini</h1>
+            <p>berikut adalah <b><i></i>list</i></b> menu <b>makan</b> kita : </p>
+        </header>
+        <main>
+            <h2 class="">Senin</h2>
+            <table>
+            <ul>
+                <li class="sarapan">Bubur ayam</li>
+                <li id="maksi">Ayam <b>goreng</b></li>
+                <li>Mie ayam</li>
+            </ul>
+            <h2>Selasa</h2>
+            <ul>
+                <li class="sarapan">Sate kambing</li>
+                <li id="maksi">Gado-gado</li>
+                <li>Nasi kuning</li>
+            </ul>
+            </table>
+        </main>
+    </body>
+</html>
+
+
+
+#CSS-NYA
+
+/* universal selector*/
+ * {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* type selector */
+ h1 {
+    color: gold;
+ }
+ 
+
+ h2 {
+    color: coral;
+ }
+
+ /* class selector */
+ .sarapan {
+    color: darkgoldenrod;
+ }
+
+ /* class id (memanggil berdasarkan id) */
+ #maksi {
+    color: rgb(57, 163, 128);
+ }
+
+/* class child */
+
+p>b {
+    color: fuchsia;
+}
+
+li>b {
+    color: brown;
+}
+
+/* decedant selector */
+p b {
+    color: hotpink; 
+}
