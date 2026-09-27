@@ -1,0 +1,42 @@
+#css
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+.creadit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:11px;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+p.intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+.tautan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    font-style: normal;
+}
+
+
+
+#html
+
+<html>
+    <head>
+        <title>aturan casecade</title>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+        <h1>The Sealed Nectar</h1>
+        <p class="credit">oleh: Safi Al-Rahman Mubarakfuri</p>
+        <a class="tautan" href="https://www.scribd.com/doc/248886615/The-Sealed-Nectar">e-book</a>
+        <p class="intro">Sirah nabawiyyah terbaik yang mendapat first price winner book dari The World Muslim League. Buku ini diperuntukkan bagi siapa saja yang ingin mengetahui sejarah rasul secara mendetail</p>
+    </body>
+
