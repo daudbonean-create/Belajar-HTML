@@ -1,0 +1,55 @@
+#HTML
+
+<html>
+    <head>
+        <title>gaya warna</title>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+
+    <div class="article">
+    <body>
+        <header>
+            <h1>Air Tanah</h1>
+            <h2>Air tanah di perkotaan</h2>
+        </header>
+
+        <main class="paragraf1">
+            <p class="par1">di tahun 2021 air tanah di desaku tercemar .Hal ini diindikasikan karena adanya bakteri dan mineral air sumur yang berasal dari sumur bor yang akhir-akhir ini dibor oleh warga. banyak bakteri salmonela yang ditemukan dan kadar zat besi yang berleihan. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facilis assumenda vel expedita ab dolor minus accusantium accusamus natus suscipit, non numquam dolorem, quisquam quas commodi impedit voluptatem cumque asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolores deserunt veritatis sequi repellat ut. Labore facere fuga blanditiis natus, illo aperiam est hic esse, rem sint consequatur et similique!</p>
+            <p class="par2">di tahun 2021 air tanah di desaku tercemar .Hal ini diindikasikan karena adanya bakteri dan mineral air sumur yang berasal dari sumur bor yang akhir-akhir ini dibor oleh warga. banyak bakteri salmonela yang ditemukan dan kadar zat besi yang berleihan. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facilis assumenda vel expedita ab dolor minus accusantium accusamus natus suscipit, non numquam dolorem, quisquam quas commodi impedit voluptatem cumque asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolores deserunt veritatis sequi repellat ut. Labore facere fuga blanditiis natus, illo aperiam est hic esse, rem sint consequatur et similique!</p>
+        </main>
+    </body>
+    </div>
+
+
+  #CSS
+
+  * {
+
+}
+
+.article {
+    border: 1px solid #2e2b2b;
+    padding: 20px;
+}
+
+h1 {
+    background-color: rgb(255, 110, 199);
+    padding: 10px;
+}
+
+h2{
+    background-color: rgba(255, 110, 199,0.5);
+}
+
+/* hue - 0 sampai 360 derajat */
+/* saturasi 0% sampai 100% */
+/* lightness 0% sampai 100% */
+p.par1 {
+    background-color: hsl(150,50%,60%);
+    padding: 10px;
+}
+
+p.par2 {
+    background-color: hsla(150,50%,60%,0.3);
+    padding: 10px ;
+}
